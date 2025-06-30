@@ -110,7 +110,7 @@ class ChatReadRetrieveReadApproach(ChatApproach):
                 self.chatgpt_model,
                 messages,
                 overrides,
-                self.get_response_token_limit(self.chatgpt_model, 1024),
+                self.get_response_token_limit(self.chatgpt_model, 4096),
                 should_stream,
             ),
         )
