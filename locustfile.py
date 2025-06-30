@@ -16,10 +16,9 @@ class ChatUser(HttpUser):
         time.sleep(self.wait_time())
         first_question = random.choice(
             [
-                "What is included in my Northwind Health Plus plan that is not in standard?",
-                "What does a Product Manager do?",
-                "What happens in a performance review?",
-                "Whats your whistleblower policy?",
+                "Give me a report on 3Shape's financial performance in 2024.",
+                "How many units has Align technology sold this year?",
+                "What are some of the markets biggest challenges?",
             ]
         )
 
